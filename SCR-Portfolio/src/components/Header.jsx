@@ -24,8 +24,12 @@ const header = () => {
               </a>
             </li>
           </ul>
-        </div>
 
+          <i className='uil uil-times nav_close'></i> Work
+        </div>
+        <div className="nav_toggle">
+        <i class="uil uil-apps"></i>
+        </div>
       </nav>
     </header>
   )
