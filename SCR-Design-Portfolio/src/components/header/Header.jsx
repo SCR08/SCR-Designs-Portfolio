@@ -4,9 +4,8 @@ import './header.css';
 const Header = () => {
   return (
     <header className="header">
-        <na className="nav container">
-            <a href="index.html" className="nav__logo">
-                SCR Designs
+        <nav className="nav container">
+            <a href="index.html" className="nav__logo">SCR Designs
             </a>
 
             <div className="nav__menu">
@@ -39,6 +38,12 @@ const Header = () => {
                             <i className="uil uil-message nav__icon"></i>Contact
                         </a>
                     </li>
+
+                    <li className="nav__item">
+                        <a href="#contact" className="nav__link active-link">
+                            <i className="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
                 </ul>
                 <i class="uil uil-times nav__close"></i>
             </div>
@@ -46,7 +51,7 @@ const Header = () => {
             <div className="nav__toggle">
             <i class="uil uil-apps"></i>
             </div>
-        </na>
+        </nav>
     </header>
   )
 }
