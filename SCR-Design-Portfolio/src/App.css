@@ -135,7 +135,7 @@ img {
   text-align: center;
 }
 
-/*=============== LAYOUT ===============*/
+/*Layout*/
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -147,12 +147,12 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== BUTTONS ===============*/
+/* Buttons */
 .button {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -170,7 +170,8 @@ img {
   align-items: center;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* Breakpoints */
+
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {

@@ -9,6 +9,7 @@ const App = () => {
     <Header />
     <main className='main'>
       <Home />
+      <About />
     </main>
     </>
   )
