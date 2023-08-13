@@ -72,7 +72,7 @@
 }
 
 .home__scroll {
-    position: fixed;
+    position: absolute;
     bottom: var(--mb-1-5);
     left: 50%;
 }
