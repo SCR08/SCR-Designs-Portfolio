@@ -71,11 +71,6 @@
     }
 }
 
-.home__scroll {
-    position: absolute;
-    bottom: var(--mb-1-5);
-    left: 50%;
-}
 
 /* Breakpoints*/
 
