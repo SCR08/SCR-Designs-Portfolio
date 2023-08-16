@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import Frontend from './Frontend'
+import Frontend from './Frontend';
 import UXDesign from './UXDesign';
 
 const Skills = () => {
