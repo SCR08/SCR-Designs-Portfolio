@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_5eretwj', 'template_896518h', form.current, 'valQQgoDqwV1KqaQO')
+
+      e.target.reset ()
+    };
+
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Let's Connect!</h2>
@@ -25,9 +36,9 @@ const Contact = () => {
                         <i class='bx bx-mail-send contact__button-icon'></i>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">f1challenge2015@hotmail.com</span>
+                        <span className="contact__card-data">f1challenge2013@gmail.com</span>
 
-                        <a href="mailto:f1challenge2015@hotmail.com" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
+                        <a href="mailto:f1challenge2013@gmail.com" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -44,7 +55,7 @@ const Contact = () => {
             <div className="contact__content">
                     <h3 className="contact__title">Tell me about our next project</h3>
 
-                        <form className="contact__form">
+                        <form className="contact__form" ref={form} onSubmit={sendEmail}>
                             <div className="contact__form-div">
                                 <label htmlFor="" className="contact__form-tag">Name</label>
                                 <input
@@ -53,9 +64,7 @@ const Contact = () => {
                                     className='contact__form-input'
                                     placeholder='Write your name' />
                             </div>
-                        </form>
 
-                        <form className="contact__form">
                             <div className="contact__form-div">
                             <label htmlFor="" className="contact__form-tag">Email</label>
                             <input
@@ -64,10 +73,8 @@ const Contact = () => {
                                 className='contact__form-input'
                                 placeholder='Write your email' />
                             </div>
-                        </form>
 
-                        <form className="contact__form">
-                            <div className="contact__form-div">
+                            <div className="contact__form-div contact__form-area">
                             <label htmlFor="" className="contact__form-tag">Project</label>
                                 <textarea
                                     name="project"

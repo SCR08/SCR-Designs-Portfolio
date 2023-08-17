@@ -1,11 +1,11 @@
-/*=============== GOOGLE FONTS ===============*/
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
+/* VARIABLES CSS */
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /* Colors */
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
@@ -15,10 +15,10 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   --body-font: 'Roboto', sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*.5rem = 8px | 1rem = 16px */
   --big-font-size: 3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -28,14 +28,15 @@
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-normal: 300;
   --font-medium: 400;
   --font-semi-bold: 500;
   --font-bold: 700;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /* Margenes Bottom */
+
+  /*1rem = 16px .*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -45,7 +46,7 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  /*========== z index ==========*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
@@ -64,7 +65,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/* Base */
 * {
   margin: 0;
   padding: 0;
@@ -114,7 +115,7 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* Reusable CSS  */
 .section {
   padding: 6rem 0 2rem;
 }
