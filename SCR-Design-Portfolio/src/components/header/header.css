@@ -44,12 +44,18 @@
 }
 
 /*Active Link*/
-
+.active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: #1100ff;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* Change background color */
+
+.scroll-header {
+    box-shadow: 0, -2px 4px #0000002d;
+}
+
+/* Breakpoints */
 
 /*Medium*/
 @media screen and (max-width: 768px) {
