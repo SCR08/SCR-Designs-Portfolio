@@ -1,7 +1,11 @@
+import MovieBanner from '../../assets/Movie Theater App/Movie-Banner.png'
+import Parche1 from '../../assets/Parche/Parche1.png'
+import Coding1 from '../../assets/Coding1.png'
+
 export const projectsData = [
         {
             id: 1,
-            image: Google1,
+            image: MovieBanner,
             title: "Google Case Studies",
             category: "UX Design",
 
@@ -16,10 +20,24 @@ export const projectsData = [
         },
 
         {
-            id: 1,
-            image: Placeholder,
+            id: 3,
+            image: Coding1,
             title: "Programming Challenges",
-            category: "Code",
+            category: "Coding",
 
         }
-]
+];
+
+export const projectsNav = [
+    {
+        name: 'all',
+    },
+
+    {
+        name: 'UX Design',
+    },
+
+    {
+        name: 'Coding',
+    },
+];

@@ -13,7 +13,7 @@ const Header = () => {
 
     /* Toogle Menu */
     const [Toogle,showMenu] = useState(false);
-    const [activeNav, setActiveNav] = useState("#home", "#about", "#work", "#skills", "#studies" ,"contact");
+    const [activeNav, setActiveNav] = useState("#home", "#about", "#Work", "#skills", "#Studies" ,"contact");
     return (
         <header className="header">
             <nav className="nav container">
@@ -35,7 +35,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#work" onClick={() => setActiveNav('#work')} className={activeNav === "#work" ? "nav__link active.link":"nav__link"}>
+                            <a href="#Work" onClick={() => setActiveNav('#Work')} className={activeNav === "#Work" ? "nav__link active.link":"nav__link"}>
                                 <i className="uil uil-scenery nav__icon"></i>Portfolio
                             </a>
                         </li>
@@ -48,7 +48,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#studies" onClick={() => setActiveNav('#studies')} className={activeNav === "#studies" ? "nav__link active.link":"nav__link"}>
+                            <a href="#Studies" onClick={() => setActiveNav('#Studies')} className={activeNav === "#Studies" ? "nav__link active.link":"nav__link"}>
                                 <i className="uil uil-graduation-cap nav__icon"></i>Studies
                             </a>
                         </li>
