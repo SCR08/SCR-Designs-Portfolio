@@ -19,7 +19,6 @@ const Header = () => {
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">SCR Designs
                 </a>
-
                 <div className={Toogle ? "nav__menu show-menu" :"nav__menu"}>
 
                     <ul className="nav__list grid">
@@ -35,7 +34,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#Work" onClick={() => setActiveNav('#Work')} className={activeNav === "#Work" ? "nav__link active.link":"nav__link"}>
+                            <a href="#work" onClick={() => setActiveNav('#work')} className={activeNav === "#work" ? "nav__link active.link":"nav__link"}>
                                 <i className="uil uil-scenery nav__icon"></i>Portfolio
                             </a>
                         </li>
@@ -48,7 +47,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#Studies" onClick={() => setActiveNav('#Studies')} className={activeNav === "#Studies" ? "nav__link active.link":"nav__link"}>
+                            <a href="#studies" onClick={() => setActiveNav('#studies')} className={activeNav === "#studies" ? "nav__link active.link":"nav__link"}>
                                 <i className="uil uil-graduation-cap nav__icon"></i>Studies
                             </a>
                         </li>

@@ -1,6 +1,6 @@
-import MovieBanner from '../../assets/Movie Theater App/Movie-Banner.png'
-import Parche1 from '../../assets/Parche/Parche1.png'
-import Coding1 from '../../assets/Coding1.png'
+import MovieBanner from '../../assets/Movie Theater App/Movie-Banner.png';
+import Parche1 from '../../assets/Parche/Parche1.png';
+import Coding1 from '../../assets/Coding1.png';
 
 export const projectsData = [
         {
@@ -30,7 +30,7 @@ export const projectsData = [
 
 export const projectsNav = [
     {
-        name: 'all',
+        name: 'All',
     },
 
     {
