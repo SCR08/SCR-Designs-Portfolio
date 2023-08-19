@@ -13,7 +13,7 @@ const Header = () => {
 
     /* Toogle Menu */
     const [Toogle,showMenu] = useState(false);
-    const [activeNav, setActiveNav] = useState("#home", "#about", "#Work", "#skills", "#Studies" ,"contact");
+    const [activeNav, setActiveNav] = useState("#home");
     return (
         <header className="header">
             <nav className="nav container">

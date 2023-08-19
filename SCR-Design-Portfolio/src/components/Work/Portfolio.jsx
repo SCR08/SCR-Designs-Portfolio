@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div>
       <div className="portfolio__filters">
-        {projectsNav.map((item,index) => {
+        {projectsNav.map((item, index) => {
           return (
             <span className="portfolio__item" key={index}>{item.name}
             </span>
