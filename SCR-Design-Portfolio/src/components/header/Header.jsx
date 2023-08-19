@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import './header.css';
 
 const Header = () => {
@@ -34,15 +34,14 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#work" onClick={() => setActiveNav('#work')} className={activeNav === "#work" ? "nav__link active.link":"nav__link"}>
-                                <i className="uil uil-scenery nav__icon"></i>Portfolio
+                            <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === "#skills" ? "nav__link active.link":"nav__link"}>
+                                <i className="uil uil-wrench nav__icon"></i>Skills
                             </a>
                         </li>
 
-
                         <li className="nav__item">
-                            <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === "#skills" ? "nav__link active.link":"nav__link"}>
-                                <i className="uil uil-wrench nav__icon"></i>Skills
+                            <a href="#work" onClick={() => setActiveNav('#work')} className={activeNav === "#work" ? "nav__link active.link":"nav__link"}>
+                                <i className="uil uil-scenery nav__icon"></i>Portfolio
                             </a>
                         </li>
 
