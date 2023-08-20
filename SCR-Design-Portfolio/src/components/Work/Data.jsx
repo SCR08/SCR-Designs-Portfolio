@@ -10,6 +10,7 @@ export const projectsData = [
             image: MovieBanner,
             title: "Movie Theater App",
             category: "UX Design",
+            url: "https://drive.google.com/file/d/1CBwRy9ENPs_rq98pz6M05mwlWGeUVRe7/view?usp=drive_link"
         },
 
         {
@@ -31,6 +32,7 @@ export const projectsData = [
             image: Solar1,
             title: "Solar Farm Project for Social Good",
             category: "UX Design",
+            url: "https://drive.google.com/file/d/15S8p1A2rq6lyHON7mnGCj_axRKpc_-Y0/view?usp=drive_link"
         },
 
         {
@@ -38,6 +40,7 @@ export const projectsData = [
             image: BankHero,
             title: "Bank Website Project",
             category: "UX Design",
+            url: "https://drive.google.com/file/d/19e5R8swyfeHhITJAkuiJ-k6cHeeJAznW/view?usp=drive_link",
         },
 
 ];
