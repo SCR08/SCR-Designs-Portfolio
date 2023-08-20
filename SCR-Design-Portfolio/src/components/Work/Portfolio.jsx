@@ -5,12 +5,12 @@ import { projectsData } from './Data'
 import { projectsNav } from './Data'
 
 const Portfolio = () => {
-  const [item, setItem] = useState({name: 'all' });
+  const [item, setItem] = useState({name: 'All' });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    if (item.name === 'all') {
+    if (item.name === 'All') {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {

@@ -18,6 +18,7 @@ export const projectsData = [
             image: Parche1,
             title: "Parche App Project",
             category: "UX Design",
+            url: "https://drive.google.com/file/d/1OPPdAy70A9TgQnNsRQiFPU2mqnFiiSqN/view?usp=sharing"
         },
 
         {

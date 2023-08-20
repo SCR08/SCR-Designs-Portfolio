@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import Darkmode from './Darkmode/Darkmode';
 
 const Header = () => {
 
@@ -20,6 +21,8 @@ const Header = () => {
                 <a href="index.html" className="nav__logo">SCR Designs
                 </a>
                 <div className={Toogle ? "nav__menu show-menu" :"nav__menu"}>
+
+                    <Darkmode />
 
                     <ul className="nav__list grid">
                         <li className="nav__item">
