@@ -1,24 +1,22 @@
 import MovieBanner from '../../assets/Movie-Banner.png';
 import Parche1 from '../../assets/Parche1.png';
 import Coding1 from '../../assets/Coding1.png';
+import Solar1 from '../../assets/Solar1.png';
+import BankHero from '../../assets/BankHero.png';
 
 export const projectsData = [
         {
             id: 1,
             image: MovieBanner,
-            title: "Google Case Studies",
+            title: "Movie Theater App",
             category: "UX Design",
-            url: "/google-case-studies/Gsc",
-
         },
 
         {
             id: 2,
             image: Parche1,
-            title: "Client Projects",
+            title: "Parche App Project",
             category: "UX Design",
-            url: "/Clients Projects/Clients",
-
         },
 
         {
@@ -26,9 +24,22 @@ export const projectsData = [
             image: Coding1,
             title: "Programming Challenges",
             category: "Coding",
-            url: "/Clients Projects/Clients",
+        },
 
-        }
+        {
+            id: 4,
+            image: Solar1,
+            title: "Solar Farm Project for Social Good",
+            category: "UX Design",
+        },
+
+        {
+            id: 5,
+            image: BankHero,
+            title: "Bank Website Project",
+            category: "UX Design",
+        },
+
 ];
 
 export const projectsNav = [
