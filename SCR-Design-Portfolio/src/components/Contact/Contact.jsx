@@ -29,7 +29,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">WhatsApp</h3>
                         <span className="contact__card-data"> +57 321 3191470 </span>
 
-                        <a href="https://api.whatsapp.com/send?phone=+573213191470&text=Test%20Link%20WhatsApp" target="_blank" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+573213191470&text=Test%20Link%20WhatsApp" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -38,7 +38,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">f1challenge2013@gmail.com</span>
 
-                        <a href="mailto:f1challenge2013@gmail.com" target="_blank" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
+                        <a href="mailto:f1challenge2013@gmail.com" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -47,7 +47,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Telegram</h3>
                         <span className="contact__card-data">@Sebastian_Cruz</span>
 
-                        <a href="https://t.me/+Os__IVq8u6c5Mjcx" target="_blank" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
+                        <a href="https://t.me/+Os__IVq8u6c5Mjcx" className="contact__button">Write me<i class="uil uil-angle-right contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
