@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css';
-import AboutImg from '../../assets/about.jpg';
+import AboutImg from '../../assets/profile.jpg';
 import CV from '../../assets/SCR-Resume.pdf';
-import Info from '../about/Info';
+import Info from './Info';
 
 const about = () => {
   return (
@@ -16,15 +16,15 @@ const about = () => {
           <Info />
 
           <p className="about__description">
-          Hi! I'm Sebastian, and I wanted to take a moment to tell you a little about myself.
+          Hi, I'm Sebastian. A Jr UX Designer and Front-End Developer pursuing a carrer in technology.
           <br/>
           <br/>
-          I'm a 24-year-old guy who's on a mission to make his mark in this world. In my free time, 
-          I'm a big fan of F1 and other motorsports, and I also love video games and technology.
+          Aligned with my work 4-year-work experience on customer service,
+          I've become a excelent UX Designer with a great set of soft-skills and behaviors to be on top of any situation on the UX Design field.
           <br/>
           <br/>
-          I have a lot of experience in the customer service industry, having worked in that field for the last 4 years. 
-          This has helped me develop a wide range of soft skills and given me some valuable insights into the professional world.
+          Thanks to my recent certification in Front-End Development with Meta.
+          I learned about HMTL, CSS, JS, and React. This new skills allowed me to create my designs into functional projects, starting with this Portfolio.
           </p>
 
           <a download="" href={CV} className="button button--flex">Download CV
