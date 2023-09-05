@@ -18,7 +18,8 @@
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-bold);
+    font-size: var(--medium-font-size);
 }
 
 .nav__list{
@@ -32,8 +33,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
-    font-weight: var(--font-semi-bold);
+    font-size: var(--medium-font-size);
+    font-weight: var(--font-bold);
     transition: .3s;
 }
 

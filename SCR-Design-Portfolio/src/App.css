@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 /* VARIABLES CSS */
 :root {
@@ -15,15 +15,15 @@
   --container-color: #fff;
 
     /*
-    --title-color: #fff;
-    --title-color-dark: #004CBD;
-    --text-color: #ddd3af;
-    --body-color: #1e202d;
-    --container-color: #1E202D;
+  --title-color: #fff;
+  --title-color-dark: #004CBD;
+  --text-color: #ddd3af;
+  --body-color: #1e242c;
+  --container-color: #1E202D;
   * /
 
   /* Font and typography */
-  --body-font: 'Roboto', sans-serif;
+  --body-font: 'Poppins', sans-serif;
 
   /*.5rem = 8px | 1rem = 16px */
   --big-font-size: 3rem;
@@ -39,7 +39,7 @@
   --font-normal: 300;
   --font-medium: 400;
   --font-semi-bold: 500;
-  --font-bold: 700;
+  --font-bold: 600;
 
   /* Margenes Bottom */
 
